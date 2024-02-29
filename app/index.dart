@@ -58,7 +58,42 @@ void main() {
 // print('LowerCase With Index: ${cases[45].toLowerCase()}');
 // print('split: ${cases.split('') }');
 
-stdout.write('Enter yuor country?');
-String? country = stdin.readLineSync();
-print('Your Country: $country)');
+// stdout.write('Enter yuor country?');
+// String? country = stdin.readLineSync();
+// print('Your Country: $country)');
+
+  // print("Enter first Number");
+  // int? a =int.parse(stdin.readLineSync()!);
+
+  // print("Enter second Number");
+  // int? b =int.parse(stdin.readLineSync()!);
+  // print(a>b);
+  // print(a<b);
+
+
+// print("====================Multiplication=================");
+// print("Enter first Number");
+// int? a =int.parse(stdin.readLineSync()!);
+// print("Enter second Number");
+// int? b =int.parse(stdin.readLineSync()!);
+
+// int result = a*b;
+//   print('$a multiply by $b answer is: $result');
+//   print(a<b);
+  
+
+   print("Enter first Number");
+int? a =int.parse(stdin.readLineSync()!);
+print("Enter second Number");
+int? b =int.parse(stdin.readLineSync()!);
+ print("Enter first Number");
+int? c =int.parse(stdin.readLineSync()!);
+print("Enter second Number");
+int? d =int.parse(stdin.readLineSync()!);
+
+if(a == b || c==d){
+  print ("c")
+}
+
+
 }
