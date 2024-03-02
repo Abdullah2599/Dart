@@ -2,7 +2,7 @@ import 'dart:io';
 
 
 void main() {
-//     int age =26;
+//     int agge =26;
 //     double percentage =88.88;
 //     bool tvalue =false;
 //     bool fvalue =true;
@@ -23,7 +23,7 @@ void main() {
 //     print('Result of two numbers: $result');
 
 //     print("Welcome");
-//     print('Age: $age');
+//     print('Age is this: $age');
 //     print(name);
 //     print(arrr[2]);
 //     print(data["name"]);
@@ -44,7 +44,7 @@ void main() {
 // print(Country[2]);
 
 
-// String cases ="Dart is programming language developed by google";
+String cases ="Dart is programming language developed by google";
 // String trim="Saad";
 // String fname ="Anas";
 // String lname ="Khan";
@@ -52,11 +52,11 @@ void main() {
 // var compare_value2= "Professional";
 
 // print('Concatenation: ${fname+lname}');
-// print('Uppercase : ${cases.toUpperCase()}');
-// print('Lowercase : ${cases.toLowerCase()}');
-// print('UpperCase With Index: ${cases[11].toUpperCase()}');
-// print('LowerCase With Index: ${cases[45].toLowerCase()}');
-// print('split: ${cases.split('') }');
+print('Uppercase : ${cases.toUpperCase()}');
+print('Lowercase : ${cases.toLowerCase()}');
+print('UpperCase With Index: ${cases[11].toUpperCase()}');
+print('LowerCase With Index: ${cases[0].toLowerCase()}');
+print('split: ${cases.split('') }');
 
 // stdout.write('Enter yuor country?');
 // String? country = stdin.readLineSync();
@@ -65,8 +65,8 @@ void main() {
   // print("Enter first Number");
   // int? a =int.parse(stdin.readLineSync()!);
 
-  // print("Enter second Number");
-  // int? b =int.parse(stdin.readLineSync()!);
+  // print("Enter age");
+  // int? age =int.parse(stdin.readLineSync()!);
   // print(a>b);
   // print(a<b);
 
@@ -82,18 +82,18 @@ void main() {
 //   print(a<b);
   
 
-   print("Enter first Number");
-int? a =int.parse(stdin.readLineSync()!);
-print("Enter second Number");
-int? b =int.parse(stdin.readLineSync()!);
- print("Enter first Number");
-int? c =int.parse(stdin.readLineSync()!);
-print("Enter second Number");
-int? d =int.parse(stdin.readLineSync()!);
+//    print("Enter first Number");
+// int? a =int.parse(stdin.readLineSync()!);
+// print("Enter second Number");
+// int? b =int.parse(stdin.readLineSync()!);
+//  print("Enter first Number");
+// int? c =int.parse(stdin.readLineSync()!);
+// print("Enter second Number");
+// int? d =int.parse(stdin.readLineSync()!);
 
-if(a == b || c==d){
-  print ("c")
-}
+// if(a == b || c==d){
+//   print ("c")
+// }
 
 
 }
