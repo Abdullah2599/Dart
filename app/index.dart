@@ -1,6 +1,5 @@
 import 'dart:io';
 
-
 void main() {
 //     int agge =26;
 //     double percentage =88.88;
@@ -44,7 +43,7 @@ void main() {
 // print(Country[2]);
 
 
-String cases ="Dart is programming language developed by google";
+// String cases ="Dart is programming language developed by google";
 // String trim="Saad";
 // String fname ="Anas";
 // String lname ="Khan";
@@ -52,11 +51,11 @@ String cases ="Dart is programming language developed by google";
 // var compare_value2= "Professional";
 
 // print('Concatenation: ${fname+lname}');
-print('Uppercase : ${cases.toUpperCase()}');
-print('Lowercase : ${cases.toLowerCase()}');
-print('UpperCase With Index: ${cases[11].toUpperCase()}');
-print('LowerCase With Index: ${cases[0].toLowerCase()}');
-print('split: ${cases.split('') }');
+// print('Uppercase : ${cases.toUpperCase()}');
+// print('Lowercase : ${cases.toLowerCase()}');
+// print('UpperCase With Index: ${cases[11].toUpperCase()}');
+// print('LowerCase With Index: ${cases[0].toLowerCase()}');
+// print('split: ${cases.split('') }');
 
 // stdout.write('Enter yuor country?');
 // String? country = stdin.readLineSync();
@@ -95,5 +94,46 @@ print('split: ${cases.split('') }');
 //   print ("c")
 // }
 
+// switch (5) {
+//   // Constant pattern matches if 1 == number.
+//   case 1:
+//     print('one');
+// }
+
+
+// print("Enter your Grade for Remarks");
+// String? grade = stdin.readLineSync();
+ 
+//    switch(grade) { 
+//       case "A": {  print("Excellent"); } 
+//       break; 
+     
+//       case "B": {  print("Good"); } 
+//       break; 
+     
+//       case "C": {  print("Fair"); } 
+//       break; 
+     
+//       case "D": {  print("Poor"); } 
+//       break; 
+     
+//       default: { print("Invalid choice"); } 
+//       break; 
+   
+//     }  
+
+
+print("Enter your English Marks");
+int? eng =int.parse(stdin.readLineSync()!);
+print("Enter your Maths Marks");
+int? mathh =int.parse(stdin.readLineSync()!);
+print("Enter your History Marks");
+int? hist =int.parse(stdin.readLineSync()!);
+
+int result = eng+mathh+hist;
+
+    double percentage = (result / 3) * 100;
+
+print("Your Percentage is: $percentage");
 
 }
