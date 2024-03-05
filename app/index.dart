@@ -1,4 +1,4 @@
-import 'dart:io';
+
 
 void main() {
 //     int agge =26;
@@ -123,17 +123,31 @@ void main() {
 //     }  
 
 
-print("Enter your English Marks");
-int? eng =int.parse(stdin.readLineSync()!);
-print("Enter your Maths Marks");
-int? mathh =int.parse(stdin.readLineSync()!);
-print("Enter your History Marks");
-int? hist =int.parse(stdin.readLineSync()!);
+// print("Enter your English Marks");
+// int? eng =int.parse(stdin.readLineSync()!);
+// print("Enter your Maths Marks");
+// int? mathh =int.parse(stdin.readLineSync()!);
+// print("Enter your History Marks");
+// int? hist =int.parse(stdin.readLineSync()!);
 
-int result = eng+mathh+hist;
+// int result = eng+mathh+hist;
 
-    double percentage = (result / 3) * 100;
+//     double percentage = (result / 3) * 100;
 
-print("Your Percentage is: $percentage");
+// print("Your Percentage is: $percentage");
 
+outerloop:
+for(var i= 0; i<5; i++){
+  print("Outerloop: ${i}");
+  innerloop:
+  for (var j =0; j < 5; j++){
+    if(j > 3) break;
+  
+    if(i==2 ) break innerloop;
+
+    if(i==4) break outerloop;
+
+    print("Innerloop: ${j}");
+  }
+}
 }
