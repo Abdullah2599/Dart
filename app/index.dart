@@ -183,32 +183,53 @@ void main() {
 // print("============================================");
 
 
-print("==========================================");
-stdout.write("Please Enter Value in String like one,two, three\n");
-String? select = stdin.readLineSync();
+// print("==========================================");
+// stdout.write("Please Enter Value in String like one,two, three\n");
+// String? select = stdin.readLineSync();
  
-   switch(select) { 
-      case "one": 
-      print("Excellent"); 
-      break; 
+//    switch(select) { 
+//       case "one": 
+//       print("Excellent"); 
+//       break; 
      
-      case "two": 
-      print("Good"); 
-      break; 
+//       case "two": 
+//       print("Good"); 
+//       break; 
      
-      case "three": 
-      print("Fair"); 
-      break; 
+//       case "three": 
+//       print("Fair"); 
+//       break; 
      
-      default: 
-      print("Invalid choice");  
-      break; 
+//       default: 
+//       print("Invalid choice");  
+//       break; 
    
-    }  
+//     }  
 
 
+
+getNumber(2,2);
 
 
 }
 
+
+getNumber(int a, int b){
+  print("Your Function Value $a");
+  print("Your Function Value $b");
+  print("Your Function Value ${a*b}");
+}
+
+int getNumbers(int x, int y)
+{
+  return x * y;
+}
+
+getfuntions(int a, int b)
+{
+  var x =(a*b)+10;
+  return x;
+}
+
+getFunctionExpression(int a,int b) => (a*b)+10;
 
