@@ -1,5 +1,7 @@
 
 
+import 'dart:io';
+
 void main() {
 //     int agge =26;
 //     double percentage =88.88;
@@ -136,18 +138,77 @@ void main() {
 
 // print("Your Percentage is: $percentage");
 
-outerloop:
-for(var i= 0; i<5; i++){
-  print("Outerloop: ${i}");
-  innerloop:
-  for (var j =0; j < 5; j++){
-    if(j > 3) break;
+// outerloop:
+// for(var i= 0; i<5; i++){
+//   print("Outerloop: ${i}");
+//   innerloop:
+//   for (var j =0; j < 5; j++){
+//     if(j > 3) break;
   
-    if(i==2 ) break innerloop;
+//     if(i==2 ) break innerloop;
 
-    if(i==4) break outerloop;
+//     if(i==4) break outerloop;
 
-    print("Innerloop: ${j}");
-  }
+//     print("Innerloop: ${j}");
+//   }
+
+// var val =50;
+// print(val++);
+// print(++val);
+// print(--val);
+// print(val--);
+// print(val);
+// print("============================================");
+
+
+
+// var c1=40 , c2=20, v1=20, v2=20;
+// if (c1 == c2 && v1== v2){
+//   print("Your Condition is True");
+// } 
+// else{
+//     print("Your Condition is False");
+
+// }
+// print("============================================");
+
+
+// if (c1 == c2 || v1== v2){
+//   print("Your Condition is True");
+// } 
+// else{
+//     print("Your Condition is False");
+
+// }
+// print("============================================");
+
+
+print("==========================================");
+stdout.write("Please Enter Value in String like one,two, three\n");
+String? select = stdin.readLineSync();
+ 
+   switch(select) { 
+      case "one": 
+      print("Excellent"); 
+      break; 
+     
+      case "two": 
+      print("Good"); 
+      break; 
+     
+      case "three": 
+      print("Fair"); 
+      break; 
+     
+      default: 
+      print("Invalid choice");  
+      break; 
+   
+    }  
+
+
+
+
 }
-}
+
+
