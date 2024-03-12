@@ -211,6 +211,19 @@ void main() {
 getNumber(2,2);
 
 
+int mul =getNumbers(2,2);
+print("The New Value is ${mul*2}");
+
+int val1 = getfunction(1,2);
+print('Without Expression $val1');
+
+getFunctionExpression(2, 2);
+// print('Expression value $ex');
+
+myprint('hello');
+
+
+
 }
 
 
@@ -225,10 +238,30 @@ int getNumbers(int x, int y)
   return x * y;
 }
 
-getfuntions(int a, int b)
+getfunction(int a, int b)
 {
   var x =(a*b)+10;
   return x;
+}
+
+myprint(String tag){
+
+  print (tag);
+
+}optionalfunction(int a, [int b=10])
+{
+  print('optional parameter ${a+b}');
+}
+numbers(int x,int y,int z)
+{
+  var num =(x+y)*z;
+  print(num);
+}
+
+threenumber(int x, {int y=0, int z =0})
+{
+  var num =(x+y)*z;
+  print ('Answer: $num');
 }
 
 getFunctionExpression(int a,int b) => (a*b)+10;
