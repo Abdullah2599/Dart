@@ -208,61 +208,77 @@ void main() {
 
 
 
-getNumber(2,2);
+// getNumber(2,2);
 
 
-int mul =getNumbers(2,2);
-print("The New Value is ${mul*2}");
+// int mul =getNumbers(2,2);
+// print("The New Value is ${mul*2}");
 
-int val1 = getfunction(1,2);
-print('Without Expression $val1');
+// int val1 = getfunction(1,2);
+// print('Without Expression $val1');
 
-getFunctionExpression(2, 2);
-// print('Expression value $ex');
+// getFunctionExpression(2, 2);
+// // print('Expression value $ex');
 
-myprint('hello');
+// myprint('hello');
+ print("Enter your English Marks");
+int? x =int.parse(stdin.readLineSync()!);
+ print("Enter your Maths Marks");
+int? y =int.parse(stdin.readLineSync()!);
+ print("Enter your History Marks");
+int? z =int.parse(stdin.readLineSync()!);
+opfunct(x,y,z);
 
 
 
 }
 
 
-getNumber(int a, int b){
-  print("Your Function Value $a");
-  print("Your Function Value $b");
-  print("Your Function Value ${a*b}");
-}
+// getNumber(int a, int b){
+//   print("Your Function Value $a");
+//   print("Your Function Value $b");
+//   print("Your Function Value ${a*b}");
+// }
 
-int getNumbers(int x, int y)
+// int getNumbers(int x, int y)
+// {
+//   return x * y;
+// }
+
+// getfunction(int a, int b)
+// {
+//   var x =(a*b)+10;
+//   return x;
+// }
+
+// myprint(String tag){
+
+//   print (tag);
+
+// }optionalfunction(int a, [int b=10])
+// {
+//   print('optional parameter ${a+b}');
+// }
+// numbers(int x,int y,int z)
+// {
+//   var num =(x+y)*z;
+//   print(num);
+// }
+
+// threenumber(int x, {int y=0, int z =0})
+// {
+//   var num =(x+y)*z;
+//   print ('Answer: $num');
+// }
+
+// getFunctionExpression(int a,int b) => (a*b)+10;
+// opfunct(int x, int y, int z,[int b=100])
+
+opfunct(int x, int y, int z, [int b=300])
 {
-  return x * y;
+  var cee= x+y+z;
+  var per = (cee/b)*100;
+ print('Percentage is: $per');
 }
 
-getfunction(int a, int b)
-{
-  var x =(a*b)+10;
-  return x;
-}
-
-myprint(String tag){
-
-  print (tag);
-
-}optionalfunction(int a, [int b=10])
-{
-  print('optional parameter ${a+b}');
-}
-numbers(int x,int y,int z)
-{
-  var num =(x+y)*z;
-  print(num);
-}
-
-threenumber(int x, {int y=0, int z =0})
-{
-  var num =(x+y)*z;
-  print ('Answer: $num');
-}
-
-getFunctionExpression(int a,int b) => (a*b)+10;
 
