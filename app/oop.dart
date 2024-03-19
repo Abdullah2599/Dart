@@ -12,18 +12,21 @@ main(){
 // use.functions();
 
 
-person p =new person();
-stdout.write("Enter your ID: ");
-int id =int.parse(stdin.readLineSync()!);
-print("Enter your Name");
-String? name = stdin.readLineSync();
-stdout.write("Enter your Age: ");
-int? age =int.parse(stdin.readLineSync()!);
-stdout.write("Enter your Address: ");
-var address =stdin.readLineSync();
+// person p =new person();
+// stdout.write("Enter your ID: ");
+// int id =int.parse(stdin.readLineSync()!);
+// print("Enter your Name");
+// String? name = stdin.readLineSync();
+// stdout.write("Enter your Age: ");
+// int? age =int.parse(stdin.readLineSync()!);
+// stdout.write("Enter your Address: ");
+// var address =stdin.readLineSync();
 
 
-p.display(id,name,age,address);
+// p.display(id,name,age,address);
+
+
+
 }
 
 
@@ -44,17 +47,17 @@ p.display(id,name,age,address);
 // }
 
 
-class person{
+// class person{
 
-  int? id;
-  String? name;
-  int? age;
-  String? address;
+//   int? id;
+//   String? name;
+//   int? age;
+//   String? address;
 
-  void display(int? id, String? name,int? age,String? address){
-    print("Your id is: $id");
-    print("Your name is: $name");
-    print("Your age is: $age");
-    print("Your address is: $address");
-  }
-}
+//   void display(int? id, String? name,int? age,String? address){
+//     print("Your id is: $id");
+//     print("Your name is: $name");
+//     print("Your age is: $age");
+//     print("Your address is: $address");
+//   }
+// }
