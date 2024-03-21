@@ -14,53 +14,27 @@ void main(){
 // opfunct(x,y,z);
 
 
+ print("Enter your Name");
+String? names = stdin.readLineSync();
+print(getFunctionExpression(names!));
 
-// int age = getAge();
+ print("Enter your Name");
+String? namez = stdin.readLineSync();
+ print("Enter your Greeting");
+String? greeting = stdin.readLineSync();
+print(getFunctionExpression(namez!, greeting: greeting));
 
 
-  double num1 = getNumber('first');
-  double num2 = getNumber('second');
-  String operator = getOperator();
-  double result = calculate(num1, num2, operator);
-  print('Result: $result');
 
 
  }
 
  
-double getNumber(String ordinal) {
-  stdout.write('Enter the $ordinal number: ');
-  return double.parse(stdin.readLineSync()!);
-}
-
-String getOperator() {
-  stdout.write('Enter an operator (+, -, *, /): ');
-  return stdin.readLineSync()!;
-}
-
-double calculate(double num1, double num2, String operator) {
-  switch (operator) {
-    case '+':
-      return num1 + num2;
-    case '-':
-      return num1 - num2;
-    case '*':
-      return num1 * num2;
-    case '/':
-      return num1 / num2;
-    default:
-      print('Error: Invalid operator');
-      return 0;
-  }
-}
 
 
 
-// int getAge() {
-//   stdout.write("Enter your age: ");
-//   return int.parse(stdin.readLineSync()!);
-// }
 
+String getFunctionExpression(String name,{String? greeting='Hello'}) => '$greeting,$name';
 
 
 
